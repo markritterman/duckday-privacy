@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Day — Privacy Policy</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 640px; margin: 0 auto; padding: 24px 16px; color: #1a1a1a; line-height: 1.6; }
+        h1 { font-size: 1.5rem; margin-bottom: 4px; }
+        h2 { font-size: 1.1rem; margin-top: 24px; margin-bottom: 8px; }
+        .date { font-size: 0.85rem; color: #666; margin-bottom: 16px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; }
+    </style>
+</head>
+<body>
+    <h1>Duck Day — Privacy Policy</h1>
+    <p class="date">Effective date: 9 March 2026</p>
+
+    <p>Duck Day is a free app that helps you check whether weather will affect your outdoor plans. This policy explains what data the app accesses and how it is handled.</p>
+
+    <h2>What we collect</h2>
+    <ul>
+        <li><strong>Location (optional):</strong> If you grant permission, the app reads your device's GPS coordinates once to determine your nearest Bureau of Meteorology forecast area. The coordinates are converted to a geohash and stored locally on your device. They are never sent to our servers.</li>
+        <li><strong>Location search:</strong> When you search for a suburb or postcode, the query is sent to the Australian Bureau of Meteorology's public API to find matching locations.</li>
+        <li><strong>Weather data:</strong> The app fetches public forecast data from the Bureau of Meteorology using your stored geohash. No personally identifiable information is included in these requests.</li>
+        <li><strong>Crash reports:</strong> The app uses Firebase Crashlytics to collect anonymous crash reports and basic device information (device model, OS version) when the app encounters an error. This helps us fix bugs. No personally identifiable information is included.</li>
+        <li><strong>Basic analytics:</strong> The app uses Firebase Analytics to collect anonymous usage statistics such as app opens and screen views. No personally identifiable information is collected.</li>
+    </ul>
+
+    <h2>What we do NOT collect</h2>
+    <ul>
+        <li>No personal information (name, email, phone number)</li>
+        <li>No advertising identifiers</li>
+        <li>No data sold or shared with third parties for marketing purposes</li>
+    </ul>
+
+    <h2>Data storage</h2>
+    <p>All app data (location geohash, event times, notification preferences) is stored locally on your device using Android's DataStore and Room database. No data is transmitted to external servers other than the Bureau of Meteorology API requests and Firebase crash/analytics data described above.</p>
+
+    <h2>Permissions</h2>
+    <ul>
+        <li><strong>Internet:</strong> Required to fetch weather forecasts and send crash reports.</li>
+        <li><strong>Location:</strong> Optional. Used only to determine your nearest forecast area.</li>
+        <li><strong>Notifications:</strong> Optional. Used to send weather alerts before your events.</li>
+    </ul>
+
+    <h2>Children's privacy</h2>
+    <p>Duck Day is not directed at children under 13. The app does not knowingly collect any data from children.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy is updated, the revised version will be posted here with a new effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions? Email <a href="mailto:hello@duckday.com.au">hello@duckday.com.au</a></p>
+</body>
+</html>
